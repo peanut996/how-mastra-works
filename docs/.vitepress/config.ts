@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "Mastra 框架解析",
   description: "深入理解 Mastra AI Agent 框架的工作原理",
 
@@ -97,4 +98,4 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
-});
+}));
