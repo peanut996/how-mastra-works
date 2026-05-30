@@ -1,0 +1,36 @@
+{
+  "name": "how-mastra-works",
+  "version": "1.0.0",
+  "description": "深入理解 Mastra AI Agent 框架的工作原理 — 渐进式 Demo + 文档解析",
+  "type": "module",
+  "scripts": {
+    "demo:01": "tsx examples/demos/01-agent-basics.ts",
+    "demo:02": "tsx examples/demos/02-tool-calling.ts",
+    "demo:03": "tsx examples/demos/03-structured-output.ts",
+    "demo:04": "tsx examples/demos/04-memory.ts",
+    "demo:05": "tsx examples/demos/05-rag.ts",
+    "demo:06": "tsx examples/demos/06-workflows.ts",
+    "demo:07": "tsx examples/demos/07-multi-agent.ts",
+    "demo:08": "tsx examples/demos/08-mcp.ts",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitepress": "^1.6.0"
+  },
+  "keywords": [
+    "mastra",
+    "ai-agent",
+    "typescript",
+    "tutorial",
+    "learning"
+  ],
+  "license": "MIT"
+}
