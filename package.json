@@ -12,6 +12,9 @@
     "demo:06": "tsx examples/demos/06-workflows.ts",
     "demo:07": "tsx examples/demos/07-multi-agent.ts",
     "demo:08": "tsx examples/demos/08-mcp.ts",
+    "demo:09": "tsx examples/demos/09-memory-deepdive.ts",
+    "demo:10": "tsx examples/demos/10-context-management.ts",
+    "demo:11": "tsx examples/demos/11-advanced-skills.ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
